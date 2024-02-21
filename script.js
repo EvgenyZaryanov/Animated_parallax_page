@@ -13,18 +13,18 @@ $(document).ready(function () {
     $('.parallax__fog').css('opacity', opacity);
 
     var zoom_2 = 1 + (width / 5000000) * percent;
-    $('.parallax__mountain_1').css('transform', 'scale(' + zoom_2 + ')');
+    $('.parallax__mountain-1').css('transform', 'scale(' + zoom_2 + ')');
 
     var horisontal = (width / 2000) * percent_block;
     var zoom_3 = 1 + width * 0.000005 * percent_block;
-    $('.parallax__mountain_2').css(
+    $('.parallax__mountain-2').css(
       'transform',
       'translate3d(' + horisontal + 'px,0,0) scale(' + zoom_3 + ')'
     );
 
     var horisontal_2 = (width / 1500) * percent_block;
     var zoom_4 = 1 + width * 0.00001 * percent_block;
-    $('.parallax__mountain_3').css(
+    $('.parallax__mountain-3').css(
       'transform',
       'translate3d(' + horisontal_2 + 'px,0,0) scale(' + zoom_4 + ')'
     );

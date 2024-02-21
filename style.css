@@ -23,21 +23,21 @@
   left: 0;
 }
 
-.parallax__mountain_1 {
+.parallax__mountain-1 {
   background: url(./img/m_1.png) 0 0 / cover no-repeat;
 }
 @media screen and (max-width: 426px) {
-  .parallax__mountain_1 {
+  .parallax__mountain-1 {
     background-position: center;
   }
 }
 
-.parallax__mountain_2 {
+.parallax__mountain-2 {
   background: url(./img/m_2.png) bottom right / 45% no-repeat;
   z-index: 1;
 }
 
-.parallax__mountain_3 {
+.parallax__mountain-3 {
   background: url(./img/m_3.png) left bottom / 100% no-repeat;
   z-index: 1;
 }
@@ -80,7 +80,7 @@
     max-width: 380px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .content__body {
     max-width: 280px;
   }
